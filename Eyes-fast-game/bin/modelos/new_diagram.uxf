@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>40</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Cuadrado
+--
+colorCuadrado
+--
+cambiarCuadrado
+setColorCuadrado
+setColorCuadrado</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>40</y>
+      <w>310</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>ControlRapidoAtento
+--
+ArrayList&lt;Cuadrado&gt; listaCuadrados
+vida
+aciertos,
+puntos 
+posicionArray
+--
+agregarCuadrado
+cambiarColoresAleatoriamente
+cambiarColorAleatoriamente
+determinarColorRepetido
+determinarJuego
+determinarVida
+getVida
+getAcierto
+getPuntos
+
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>390</y>
+      <w>150</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>VistaGUI
+--
+zonaJuego
+zonaResultados
+ArrayList&lt;JLabel&gt; 
+campo vida
+campo puntos
+JButton salir 
+JButton iguales
+imagen
+escucha
+controlRapidoAtento
+--
+VistaGUI()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>480</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>PrincipalRapidoAtento
+--
+--
+main()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>80</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>490</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>480</y>
+      <w>210</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>470</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>VentanaMensaje
+--
+resultados
+continuar
+salir
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>290</y>
+      <w>40</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+</diagram>
